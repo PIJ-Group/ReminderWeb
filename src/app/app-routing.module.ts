@@ -5,7 +5,7 @@ import { QuienesSomosComponent } from './quienes-somos/quienes-somos.component';
 import { DescargaComponent } from './descarga/descarga.component';
 
 const routes: Routes = [
-  {path: 'home', component: HomeComponent},
+  {path: '', component: HomeComponent},
   {path: 'quienes_somos', component: QuienesSomosComponent},
   {path: 'descarga', component: DescargaComponent}
 ];

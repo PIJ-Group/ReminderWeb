@@ -7,7 +7,7 @@ import { Menu } from './_model/menu';
 export class ServiceMenuService {
 
   menus: Menu[] = [
-    new Menu('home','Home', '/home'),
+    new Menu('home','Home', '/'),
     new Menu('face','Quienes Somos', '/quienes_somos'),
     new Menu('shop', 'Descarga la app', '/descarga')
   ];
