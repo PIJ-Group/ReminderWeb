@@ -12,8 +12,30 @@
 }
 
 img {
-  max-width: 200px;
-  max-height: 350px;
   margin-top: 16px;
   margin-bottom: 16px;
+}
+
+@media (min-width: 600px) {
+  /* Estilos para versión web */
+  .image-container {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  img {
+    max-width: 400px;
+    max-height: 600px;
+  }
+}
+
+@media (max-width: 599px) {
+  /* Estilos para versión móvil */
+  .image-container {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  img {
+    max-width: 200px;
+    max-height: 350px;
+  }
 }

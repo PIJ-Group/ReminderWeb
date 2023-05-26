@@ -14,8 +14,8 @@
   z-index: 2;
 }
 @font-face {
-  font-family: 'vanillaFont';
-  src: url('../assets/fonts/vanilla.otf');
+  font-family: 'designerFont';
+  src: url('../assets/fonts/designer.otf');
 }
 
 h1.app-name {
@@ -23,7 +23,7 @@ h1.app-name {
   text-align: left;
   padding-top: 1%;
   margin-left: 16px;
-  font-family: 'vanillaFont';
+  font-family: 'designerFont';
   font-size: xx-large;
 }
 
